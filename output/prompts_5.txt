@@ -1,0 +1,114 @@
+You are an expert chat assistant for the domain: restaurants.
+Instructions: As an expert, you must generate the most appropriate response for the chat assistant.
+The response can be an api call or a response to the user.
+You will be provided with a Schema for domain: restaurants.
+Schema for Restaurants
+Intent: ReserveRestaurant
+required slots: restaurant name,location,time
+optional slots: number of seats,date
+Intent: FindRestaurants
+required slots: category,location
+optional slots: price range,has vegetarian options,has seating outdoors
+You will be provided an incomplete dialog between a user and a chat assistant, and an optional search results.
+Dialog History:
+
+Last User Utterance:I want to make a restaurant reservation for 2 people at half past 11 in the morning.
+End Dialog History
+
+
+. Using the Dialog History, Search Results, and by following the Instructions please generate the response for the chat assistant.
+--------------------
+You are an expert chat assistant for the domain: restaurants.
+Instructions: As an expert, you must generate the most appropriate response for the chat assistant.
+The response can be an api call or a response to the user.
+You will be provided with a Schema for domain: restaurants.
+Schema for Restaurants
+Intent: ReserveRestaurant
+required slots: restaurant name,location,time
+optional slots: number of seats,date
+Intent: FindRestaurants
+required slots: category,location
+optional slots: price range,has vegetarian options,has seating outdoors
+You will be provided an incomplete dialog between a user and a chat assistant, and an optional search results.
+Dialog History:
+User: I want to make a restaurant reservation for 2 people at half past 11 in the morning.
+System: What city do you want to dine in? Do you have a preferred restaurant?
+Last User Utterance:Please find restaurants in San Jose. Can you try Sino?
+End Dialog History
+
+
+. Using the Dialog History, Search Results, and by following the Instructions please generate the response for the chat assistant.
+--------------------
+You are an expert chat assistant for the domain: restaurants.
+Instructions: As an expert, you must generate the most appropriate response for the chat assistant.
+The response can be an api call or a response to the user.
+You will be provided with a Schema for domain: restaurants.
+Schema for Restaurants
+Intent: ReserveRestaurant
+required slots: restaurant name,location,time
+optional slots: number of seats,date
+Intent: FindRestaurants
+required slots: category,location
+optional slots: price range,has vegetarian options,has seating outdoors
+You will be provided an incomplete dialog between a user and a chat assistant, and an optional search results.
+Dialog History:
+User: I want to make a restaurant reservation for 2 people at half past 11 in the morning.
+System: What city do you want to dine in? Do you have a preferred restaurant?
+User: Please find restaurants in San Jose. Can you try Sino?
+System: Confirming: I will reserve a table for 2 people at Sino in San Jose. The reservation time is 11:30 am today.
+Last User Utterance:Yes, thanks. What's their phone number?
+End Dialog History
+
+
+. Using the Dialog History, Search Results, and by following the Instructions please generate the response for the chat assistant.
+--------------------
+You are an expert chat assistant for the domain: restaurants.
+Instructions: As an expert, you must generate the most appropriate response for the chat assistant.
+The response can be an api call or a response to the user.
+You will be provided with a Schema for domain: restaurants.
+Schema for Restaurants
+Intent: ReserveRestaurant
+required slots: restaurant name,location,time
+optional slots: number of seats,date
+Intent: FindRestaurants
+required slots: category,location
+optional slots: price range,has vegetarian options,has seating outdoors
+You will be provided an incomplete dialog between a user and a chat assistant, and an optional search results.
+Dialog History:
+User: I want to make a restaurant reservation for 2 people at half past 11 in the morning.
+System: What city do you want to dine in? Do you have a preferred restaurant?
+User: Please find restaurants in San Jose. Can you try Sino?
+System: Confirming: I will reserve a table for 2 people at Sino in San Jose. The reservation time is 11:30 am today.
+Last User Utterance:Yes, thanks. What's their phone number?
+End Dialog History
+
+Search Results:
+{'search_results': {'address': '377 Santana Row #1000', 'category': 'Asian', 'date': '2019-03-01', 'has_seating_outdoors': 'True', 'has_vegetarian_options': 'True', 'location': 'San Jose', 'number_of_seats': '2', 'phone_number': '408-247-8880', 'price_range': 'moderate', 'rating': '4.00', 'restaurant_name': 'Sino', 'time': '11:30'}}
+End Search Results
+ApiCall(method='ReserveRestaurant', parameters={'date': '2019-03-01', 'location': 'San Jose', 'number_of_seats': '2', 'restaurant_name': 'Sino', 'time': '11:30'})
+. Using the Dialog History, Search Results, and by following the Instructions please generate the response for the chat assistant.
+--------------------
+You are an expert chat assistant for the domain: restaurants.
+Instructions: As an expert, you must generate the most appropriate response for the chat assistant.
+The response can be an api call or a response to the user.
+You will be provided with a Schema for domain: restaurants.
+Schema for Restaurants
+Intent: ReserveRestaurant
+required slots: restaurant name,location,time
+optional slots: number of seats,date
+Intent: FindRestaurants
+required slots: category,location
+optional slots: price range,has vegetarian options,has seating outdoors
+You will be provided an incomplete dialog between a user and a chat assistant, and an optional search results.
+Dialog History:
+User: I want to make a restaurant reservation for 2 people at half past 11 in the morning.
+System: What city do you want to dine in? Do you have a preferred restaurant?
+User: Please find restaurants in San Jose. Can you try Sino?
+System: Confirming: I will reserve a table for 2 people at Sino in San Jose. The reservation time is 11:30 am today.
+User: Yes, thanks. What's their phone number?
+System: Your reservation has been made. Their phone number is 408-247-8880.
+Last User Utterance:What's their address? Do they have vegetarian options on their menu?
+End Dialog History
+
+
+. Using the Dialog History, Search Results, and by following the Instructions please generate the response for the chat assistant.
